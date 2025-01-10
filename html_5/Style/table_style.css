@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+}
+table > thead > tr > th {
+    border-style: solid;
+}
+
+table > tbody > tr > td {
+        border-style:solid;
+        padding: 10px;
+}
+table > tfoot > tr > td {
+    border-style: solid;
+}
+ 

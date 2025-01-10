@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Html Form Making</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> in this tutorial we will try to create a form with HTML 5</h1>
+    </header>
+    <main>
+        <form>
+            <label for="name"> Your Name : 
+            <input id="name" type="text" placeholder="Enter Your Name">
+            </label>
+            <label for="email">
+                Email Address: 
+                <input id="email" type="email" placeholder="Enter Your Email">
+            </label>
+            <label for="password">
+                Email Address: 
+                <input id="password" type="password" placeholder="Enter your password">
+            </label>
+            <fieldset>
+                <legend>Pick one pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pita" id="chitoy">
+                    chitoy
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pita" id="vapa">
+                    Vapa
+
+                </label>
+                <label for="puli">
+                    <input type="radio" name="pita" id="puli">
+                    Puli
+
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one vorta</legend>
+                <label for="shutki">
+                    <input type="checkbox" id="shutki" name="vorta">
+                    Shutki Vorta
+                </label>
+                <label for="dhoinna"></label>
+                    <input type="checkbox" id="dhoinna" name="vorta">
+                    Dhoinna Vorta
+                </label>
+                <label for="morich"></label>
+                    <input type="checkbox" id="morich" name="vorta">
+                    Morich Vorta
+                </label>
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Detailed Special Instructions
+                </legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
